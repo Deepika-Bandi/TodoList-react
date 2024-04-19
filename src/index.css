@@ -5,9 +5,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  align-items: center;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.App {
+  align-items: center;
+}
+input[type="submit"]{
+  background-color: greenyellow;
+  padding: 4px 30px 6px 20px;
+  border-radius: 4px;
+}
+button{
+  background-color: red;
+  color: white;
+  padding: 4px;
+  border-radius: 4px;
 }
